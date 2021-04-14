@@ -1,5 +1,7 @@
 package com.lti.dao;
 
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
@@ -19,4 +21,6 @@ public class UserDao {
 	public void save(User user) {
 		entityManager.persist(user);
 	}
+	
+	
 }
